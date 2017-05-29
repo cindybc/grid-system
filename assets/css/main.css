@@ -28,3 +28,32 @@ header{
 	top: 40%;
 	left: 35%;
 }
+
+.paisaje{
+	background-image: url(http://lorempixel.com/output/city-q-c-1024-600-6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 40vh;
+}
+
+.paisaje .container{
+    background-color: rgba(255,255,255, 0.5);
+	position: relative;
+	height: 25vh;
+}
+
+.cajaMayor{
+	position: absolute; 
+	top: 40%;
+	left: 35%;
+	font-size: 40px;
+}
+
+button{
+	background-color: aqua;
+	float: right;
+	padding: 10px;
+	border-radius: 10px;
+}
+
